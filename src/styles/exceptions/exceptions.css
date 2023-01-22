@@ -1,0 +1,8 @@
+/* https://cube.fyi/exception.html */
+
+/* TL;DR: one-off styles for finite states */
+
+.grid[data-layout='50-50'] {
+  --grid-placement: auto-fit;
+  --grid-min-item-size: clamp(16rem, 50vw, 26rem);
+}

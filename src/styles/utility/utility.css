@@ -1,0 +1,75 @@
+/* https://cube.fyi/utility.html */
+
+/* TL;DR: Utility classes (yes, like Tailwind) */
+
+.flow > * + *,
+.prose > * + * {
+  margin-block-start: var(--flow-space, var(--space-s-m));
+}
+
+.prose :is(pre, pre + *, figure, figure + *, h2, h3, h4, h5, h6) {
+  --flow-space: var(--space-l-xl);
+}
+
+.prose :is(h2 + *, h3 + *, h4 + *, h5 + *, h6 + *) {
+  --flow-space: var(--space-s);
+}
+
+.wrapper {
+  width: clamp(16rem, 95vw, 75rem);
+  margin-inline: auto;
+  padding-inline: var(--gutter, 1rem);
+  position: relative;
+}
+
+.repel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gutter, var(--space-s-m));
+}
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--gutter, var(--space-s-m));
+}
+
+.region {
+  padding-top: var(--region-space, var(--space-l-xl));
+  padding-bottom: var(--region-space, var(--space-l-xl));
+}
+
+.prose {
+  max-inline-size: var(--content-measure);
+}
+
+.object-fit-cover {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/* === FOR DEBUGGING PURPOSES ONLY! === */
+/*
+* {
+  background: rgb(0 100 0 / 0.05) !important;
+} */

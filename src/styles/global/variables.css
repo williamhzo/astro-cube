@@ -1,0 +1,80 @@
+:root {
+  /* Colors */
+
+  --color-base-light: hsl(0, 0%, 98%);
+  --color-base-dark: hsl(251, 41%, 8%);
+  --color-accent-dark: hsl(237, 90%, 80%);
+  --color-accent-light: hsl(248, 86%, 60%);
+  --color-gray-light: hsl(206, 5.8%, 52.3%);
+  --color-gray-subtle-light: hsl(208, 11.3%, 88.9%);
+  --color-gray-dark: hsl(206, 5.2%, 49.5%);
+  --color-gray-subtle-dark: hsl(201, 6.2%, 20.5%);
+
+  /* Fonts */
+
+  --font-base: system-ui, sans-serif;
+  --font-heading: serif;
+  --font-weight-base: 400;
+  --font-weight-bold: 700;
+  --content-measure: 55ch;
+  --outline-offset: 0.25rem;
+  --outline-size: 2px;
+
+  --gutter: var(--space-s-m);
+  --border-radius: 12px;
+  --border-radius-sm: 0.25rem;
+  --duration-sm: 250ms;
+  --duration-md: 500ms;
+  --duration-lg: 700ms;
+  --transition-base: var(--duration-sm) ease;
+  --transition-movement: var(--duration-sm) linear;
+  --transition-fade: var(--duration-md) ease;
+  --transition-bounce: var(--duration-md) cubic-bezier(0.5, 0.05, 0.2, 1.5);
+  --tracking-s: -0.07ch;
+  --tracking: -0.05ch;
+  --tracking-l: -0.01ch;
+  --line-height-base: 1.4;
+  --line-height-tight: 1;
+
+  /**
+    * Font sizes and space scales generated with Utopia (https://utopia.fyi/):
+    *
+    * parameters:
+    * min viewport: 320px, font-size: 16px, scale: 1.2
+    * max viewport: 1350px, font-size: 20px, scale: 1.414
+  */
+
+  /* Font sizes */
+
+  --size-step--1: clamp(0.83rem, calc(0.82rem + 0.08vw), 0.88rem);
+  --size-step-0: clamp(1rem, calc(0.92rem + 0.39vw), 1.25rem);
+  --size-step-1: clamp(1.1875rem, 1.05rem + 0.68vw, 1.625rem);
+  --size-step-2: clamp(1.44rem, calc(1.11rem + 1.65vw), 2.5rem);
+  --size-step-3: clamp(1.73rem, calc(1.17rem + 2.8vw), 3.53rem);
+  --size-step-4: clamp(2.07rem, calc(1.17rem + 4.54vw), 5rem);
+
+  /* Spacings */
+
+  --space-3xs: clamp(0.25rem, calc(0.23rem + 0.1vw), 0.31rem);
+  --space-2xs: clamp(0.5rem, calc(0.46rem + 0.19vw), 0.63rem);
+  --space-xs: clamp(0.75rem, calc(0.69rem + 0.29vw), 0.94rem);
+  --space-s: clamp(1rem, calc(0.92rem + 0.39vw), 1.25rem);
+  --space-m: clamp(1.5rem, calc(1.38rem + 0.58vw), 1.88rem);
+  --space-l: clamp(2rem, calc(1.84rem + 0.78vw), 2.5rem);
+  --space-xl: clamp(3rem, calc(2.77rem + 1.17vw), 3.75rem);
+  --space-2xl: clamp(4rem, calc(3.69rem + 1.55vw), 5rem);
+
+  /* One-up pairs */
+
+  --space-3xs-2xs: clamp(0.25rem, calc(0.13rem + 0.58vw), 0.63rem);
+  --space-2xs-xs: clamp(0.5rem, calc(0.36rem + 0.68vw), 0.94rem);
+  --space-xs-s: clamp(0.75rem, calc(0.59rem + 0.78vw), 1.25rem);
+  --space-s-m: clamp(1rem, calc(0.73rem + 1.36vw), 1.88rem);
+  --space-m-l: clamp(1.5rem, calc(1.19rem + 1.55vw), 2.5rem);
+  --space-l-xl: clamp(2rem, calc(1.46rem + 2.72vw), 3.75rem);
+  --space-xl-2xl: clamp(3rem, calc(2.38rem + 3.11vw), 5rem);
+
+  /* Custom pairs */
+
+  --space-l-2xl: clamp(2rem, calc(1.07rem + 4.66vw), 5rem);
+}

@@ -1,0 +1,19 @@
+/* https://cube.fyi/composition.html */
+
+/* TL;DR: Layouts and structural styles */
+
+.grid {
+  --grid-min-item-size: 20ch;
+
+  display: grid;
+  gap: var(--gutter, var(--space-s-m));
+}
+
+@supports (width: min(var(--grid-min-item-size), 100%)) {
+  .grid {
+    grid-template-columns: repeat(
+      var(--grid-placement, auto-fit),
+      minmax(min(var(--grid-min-item-size, 20ch), 100%), 1fr)
+    );
+  }
+}
