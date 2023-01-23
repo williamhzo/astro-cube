@@ -19,6 +19,44 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 - **lightweight**: 💯 [lighthouse score](https://developer.chrome.com/en/docs/lighthouse/performance/performance-scoring/) across the board — not surprising considering the size of the project, but worth mentioning
 - **dark-mode ready**: implement your own theme switcher if you're into that sort of thing, all you have to do is toggle the `data-theme` attribute on the body
 
+## installation
+
+### clone this repo
+
+```bash
+git clone https://github.com/williamhzo/astro-cube.git
+```
+
+### instal dependencies
+
+```bash
+cd astro-cube
+```
+
+```bash
+npm i
+```
+
+### spin up local dev server
+
+```bash
+npm run dev
+```
+
+### build to `./dist/`
+
+```bash
+npm run build
+```
+
+### preview production build
+
+```bash
+npm run preview
+```
+
+### ...or use the template directly ➡️ "Use this template" > "Create a new repository"
+
 ## to do
 
 - [ ] add install steps to README
