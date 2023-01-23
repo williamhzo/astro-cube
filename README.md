@@ -21,6 +21,8 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 
 ## to do
 
+- [ ] add install steps to README
+- [ ] add credits to README
 - [ ] add design tokens as JSON rather than CSS variables
 - [ ] generate utilities and CSS variables programmatically (see [this post](https://piccalil.li/blog/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/))
 
