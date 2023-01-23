@@ -6,7 +6,7 @@
   --grid-min-item-size: 20ch;
 
   display: grid;
-  gap: var(--gutter, var(--space-s-m));
+  gap: var(--gutter, var(--space-2xl));
 }
 
 @supports (width: min(var(--grid-min-item-size), 100%)) {

@@ -13,10 +13,12 @@
   /* Fonts */
 
   --font-base: system-ui, sans-serif;
-  --font-heading: serif;
+  --font-heading: 'Silk', serif;
+  --font-weight-heading-1: 100;
+  --font-weight-heading-2: 200;
   --font-weight-base: 400;
   --font-weight-bold: 700;
-  --content-measure: 55ch;
+  --content-measure: 60ch;
   --outline-offset: 0.25rem;
   --outline-size: 2px;
 
@@ -40,18 +42,20 @@
     * Font sizes and space scales generated with Utopia (https://utopia.fyi/):
     *
     * parameters:
-    * min viewport: 320px, font-size: 16px, scale: 1.2
+    * min viewport: 320px, font-size: 18px, scale: 1.2
     * max viewport: 1350px, font-size: 20px, scale: 1.414
   */
 
   /* Font sizes */
 
-  --size-step--1: clamp(0.83rem, calc(0.82rem + 0.08vw), 0.88rem);
-  --size-step-0: clamp(1rem, calc(0.92rem + 0.39vw), 1.25rem);
-  --size-step-1: clamp(1.1875rem, 1.05rem + 0.68vw, 1.625rem);
-  --size-step-2: clamp(1.44rem, calc(1.11rem + 1.65vw), 2.5rem);
-  --size-step-3: clamp(1.73rem, calc(1.17rem + 2.8vw), 3.53rem);
-  --size-step-4: clamp(2.07rem, calc(1.17rem + 4.54vw), 5rem);
+  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1350,20,1.414,5,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --size-step--1: clamp(0.88rem, calc(0.95rem + -0.08vw), 0.94rem);
+  --size-step-0: clamp(1.13rem, calc(1.09rem + 0.19vw), 1.25rem);
+  --size-step-1: clamp(1.35rem, calc(1.22rem + 0.65vw), 1.77rem);
+  --size-step-2: clamp(1.62rem, calc(1.35rem + 1.37vw), 2.5rem);
+  --size-step-3: clamp(1.94rem, calc(1.45rem + 2.47vw), 3.53rem);
+  --size-step-4: clamp(2.33rem, calc(1.5rem + 4.14vw), 5rem);
+  --size-step-5: clamp(2.8rem, calc(1.47rem + 6.63vw), 7.07rem);
 
   /* Spacings */
 

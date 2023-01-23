@@ -26,13 +26,21 @@ body {
 
 /* Base typesetting */
 
-h1,
+h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-heading-1);
+}
+
 h2,
-h3,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-heading-2);
+}
+
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
+  font-family: var(--font-base);
   font-weight: var(--font-weight-bold);
 }
 
@@ -45,21 +53,21 @@ h3 {
 }
 
 h1 {
-  font-size: var(--size-step-3);
+  font-size: var(--size-step-5);
 }
 
 h2 {
-  font-size: var(--size-step-2);
+  font-size: var(--size-step-3);
 }
 
 h3 {
-  font-size: var(--size-step-1);
+  font-size: var(--size-step-2);
 }
 
 h4,
 h5,
 h6 {
-  font-size: var(--size-step-0);
+  font-size: var(--size-step-1);
 }
 
 /* Set line lengths */
@@ -156,4 +164,8 @@ a > code {
 pre {
   padding: var(--space-2xs-xs);
   border-radius: var(--border-radius-sm);
+}
+
+footer {
+  margin-block-start: var(--space-xl-2xl);
 }

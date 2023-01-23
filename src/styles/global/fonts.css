@@ -1,1 +1,15 @@
-/* Fonts imports @font-face definition */
+@font-face {
+  font-family: 'Silk';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local(''), url('/fonts/SilkSerif-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Silk';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: local(''), url('/fonts/SilkSerif-Light.woff2') format('woff2');
+}

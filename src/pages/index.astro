@@ -4,6 +4,61 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="astro-cube">
   <main>
-    <h1>Welcome to <span class="text-gradient">astro-cube</span>!</h1>
+    <article class="region prose wrapper hero">
+      <h1>astro-cube</h1>
+
+      <h2>
+        a tiny <a href="https://astro.build/">Astro</a> starter template, with <a
+          href="https://cube.fyi/">CUBE CSS</a
+        >
+      </h2>
+    </article>
+
+    <article class="region prose wrapper">
+      <ul role="list" class="grid features">
+        <li class="flow">
+          <h3>minimal</h3>
+          <p>
+            Barebones, just Astro and pure CSS, no other external tools, extra
+            build step or client-side JavaScript.
+          </p>
+        </li>
+
+        <li class="flow">
+          <h3>customizable</h3>
+          <p>
+            Everything here is just suggestive, remove, add, tweak, copy/paste,
+            knock yourself out.
+          </p>
+        </li>
+
+        <li class="flow">
+          <h3>robust</h3>
+          <p>
+            Based on <a href="https://andy-bell.co.uk/">Andy Bell</a>'s talk "Be
+            the browser's mentor, not its micromanager" and its <a
+              href="https://buildexcellentwebsit.es/">buildexcellentwebsit.es</a
+            >.
+          </p>
+        </li>
+
+        <li class="flow">
+          <h3>fluid</h3>
+          <p>
+            Spacings and font-sizes are <a href="https://utopia.fyi/"
+              >clamp-based</a
+            >, meaning they adapt to the viewport's size, instead of arbitrary
+            breakpoints.
+          </p>
+        </li>
+      </ul>
+    </article>
+
+    <footer class="region prose wrapper">
+      See <a href="https://github.com/williamhzo/astro-cube">source code</a>,
+      contributions are welcome! <span role="img" aria-label="waving hand emoji"
+        >👋</span
+      >
+    </footer>
   </main>
 </Layout>

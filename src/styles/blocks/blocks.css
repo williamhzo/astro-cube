@@ -1,3 +1,24 @@
 /* https://cube.fyi/block.html */
 
 /* TL;DR: Components styles */
+
+.hero {
+  margin-block-start: var(--space-l-2xl);
+}
+
+.hero :is(h1, h2) {
+  text-transform: uppercase;
+}
+
+.hero a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero a:hover {
+  text-decoration: underline;
+}
+
+.features {
+  --gutter: var(--space-l);
+}
