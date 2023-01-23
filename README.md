@@ -35,3 +35,5 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 > that said, it's great if it can be helpful to other, i'm open to feedback and greatly appreciate contributions, feel free to chip in for fixes, suggestions, or features!
 
 contributions are welcome! 👋
+
+[![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build/)
