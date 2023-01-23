@@ -57,13 +57,6 @@ npm run preview
 
 ### ...or use the template directly ➡️ "Use this template" > "Create a new repository"
 
-## to do
-
-- [ ] add install steps to README
-- [ ] add design tokens as JSON rather than CSS variables
-- [ ] add comments to explicit some utilities (`flow`, `region`, `wrapper`, etc.)
-- [ ] generate utilities and CSS variables programmatically (see [this post](https://piccalil.li/blog/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/))
-
 ## contributions are welcome! 👋
 
 > **Note**
