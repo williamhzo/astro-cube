@@ -26,7 +26,7 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 - [ ] add comments to explicit some utilities (`flow`, `region`, `wrapper`, etc.)
 - [ ] generate utilities and CSS variables programmatically (see [this post](https://piccalil.li/blog/i-used-tailwind-for-the-u-in-cube-css-and-i-liked-it/))
 
----
+## contributions are welcome! 👋
 
 > **Note**
 >
@@ -36,28 +36,24 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
 >
 > that said, it's great if it can be helpful to other, i'm open to feedback and greatly appreciate contributions, feel free to chip in for fixes, suggestions, or features!
 
-contributions are welcome! 👋
-
-[![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build/)
-
 ---
 
 ## credits
 
 greater minds than mine are behind the choices in this kit, i'd like to mention them for the inspiration and learning provided:
 
-**Astro core & docs team**
+### **[Astro core & docs team](https://docs.astro.build/en/getting-started/)**
 
 along with contributors, for a great onboarding experience and a wholesome community.
 
-**[Andy Bell](https://andy-bell.co.uk/)**
+### **[Andy Bell](https://andy-bell.co.uk/)**
 
 Andy is a great source of inspiration for building robust UI working with the browser, rather than against it. but also for reminding me that CSS is an extremely powerful tool as it is. CUBE CSS really clicked to me as it brought pure "traditional" CSS to the component-first world of today.
 
 - [Every Layout](https://every-layout.dev/)
 - [CUBE CSS](https://cube.fyi/)
 
-**[Heydon Pickering](https://heydonworks.com/)**
+### **[Heydon Pickering](https://heydonworks.com/)**
 
 Heydon provides amazing insights and spicy takes on how to build for the web, from an inclusive and accessible perspective.
 
@@ -65,8 +61,10 @@ Heydon provides amazing insights and spicy takes on how to build for the web, fr
 - [Webbed Briefs](https://briefs.video/)
 - [Every Layout](https://every-layout.dev/)
 
-**[Lene Saile](https://www.lenesaile.com/en/)**
+### **[Lene Saile](https://www.lenesaile.com/en/)**
 
-Lene made an amazing [Eleventy](https://www.11ty.dev/) starter based on CUBE CSS called [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent), which is way more mature and robust than this one. it comes batteries included to build a full-blown blog with 11y in a breeze, i'd definitely recommend checking it out.
+Lene made an amazing [Eleventy](https://www.11ty.dev/) starter based on CUBE CSS which is way more mature and complete than this one. it comes batteries included to build a full-blown blog with 11y in a breeze, i'd definitely recommend checking it out.
 
-their starter greatly inspired me to build one for Astro.
+her starter greatly inspired me to build one for Astro (it will be a separate one from this minimal one).
+
+- [Eleventy Excellent](https://github.com/madrilene/eleventy-excellent)
