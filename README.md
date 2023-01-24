@@ -66,7 +66,7 @@ npm run preview
 >
 > in that sense, this template is not set in stone and will likely evolve in the coming weeks.
 >
-> that said, it's great if it can be helpful to other, i'm open to feedback and greatly appreciate contributions, feel free to chip in for fixes, suggestions, or features!
+> that said, it's great if it can be helpful to some folks out there, i'm open to feedback and greatly appreciate contributions, feel free to chip in for fixes, suggestions, or features! let me know if you have improvement ideas :)
 
 ---
 
