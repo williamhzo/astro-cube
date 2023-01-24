@@ -62,7 +62,7 @@ npm run preview
 
 > **Note**
 >
-> please note that this project is mostly for personal use, i've been using this approach a lot lately and having the minimal set-up ready saves me a ton of time when starting a new preoject.
+> please note that this project is initially made for personal use, i've been using this minimal set-up a lot lately and having it ready saves me a ton of time when starting a new project.
 >
 > in that sense, this template is not set in stone and will likely evolve in the coming weeks.
 >
