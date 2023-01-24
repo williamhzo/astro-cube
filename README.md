@@ -18,6 +18,7 @@ most styles are for demo purposes and to explain the underlying philosophy: "Be 
   - [Utopia](https://utopia.fyi/) for fluid `clamp()`-based font sizes and spacing
 - **lightweight**: 💯 [lighthouse score](https://developer.chrome.com/en/docs/lighthouse/performance/performance-scoring/) across the board — not surprising considering the size of the project, but worth mentioning
 - **dark-mode ready**: implement your own theme switcher if you're into that sort of thing, all you have to do is toggle the `data-theme` attribute on the body
+- **SEO** ready: basic SEO meta-tags are set-up, with `sitemap`s automatically generated at build time
 
 ## installation
 
