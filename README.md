@@ -8,7 +8,7 @@ it comes with the [CUBE CSS](https://cube.fyi/) file structure, a methodology fo
 
 the project is mostly barebones, the goal isn't to provide a batteries-included template, just an easy starter kit and stylesheets to copy/paste from.
 
-most styles are for demo purposes and to explain the underlying philosophy: "Be the browser's mentor, not its micromanager" (see [buildexcellentwebsit.es](buildexcellentwebsit.es)).
+most styles are for demo purposes and to explain the underlying philosophy: "Be the browser's mentor, not its micromanager" (see [buildexcellentwebsit.es](https://buildexcellentwebsit.es)).
 
 ## features
 
